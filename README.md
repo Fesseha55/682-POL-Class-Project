@@ -27,10 +27,10 @@ e. Provide recommendations for balancing demographic recognition with social coh
 
 4. Research Questions
 
-1. What were the historical and political motivations behind adopting the “African American” category in federal demographic forms?
-2. How is the category currently used in policymaking, voting rights enforcement, and electoral strategy?
-3. In what ways might demographic classification reinforce identity politics and partisan polarization?
-4. What are the long-term implications of demographic recognition for American democratic stability?
+a. What were the historical and political motivations behind adopting the “African American” category in federal demographic forms?
+b. How is the category currently used in policymaking, voting rights enforcement, and electoral strategy?
+c. In what ways might demographic classification reinforce identity politics and partisan polarization?
+d. What are the long-term implications of demographic recognition for American democratic stability?
 
 5. Literature Review (Preliminary Themes)
 
