@@ -1,4 +1,12 @@
-Title: From Empowerment to Polarization: The Future Political Consequences of the “African American” Demographic Category in U.S. Politics
+
+
+
+
+From Empowerment to Polarization: The Future Political Consequences of the “African American” Demographic Category in U.S. Politics
+
+Abstract
+
+The ‘African American’ demographic category has been a cornerstone of the U.S. civil rights enforcement, voting rights protection, and resource allocation since the later half of the twentieth century. Originally conceived as an instrument of equity, this classification has enabled federal agencies, courts, and policy makers to identify and remedy systemic racial disparities across American political and social institutions. Yet, as partisan polarization intensifies and demographic data increasingly inform electoral strategy and redistricting, the category’s political consequences have grown more complex. This research proposal argues that the “African American” classification creates polarized identity based American politics. Drawing on multiculturalism theory, social identity theory, and political polarization theory, an employing mixed methods research design, the proposal study will systematically analyze the historical origins, institutional functions, and projected future political consequences of this classification. Findings are expected to offer nuanced guidance for policy makers navigating the intersection of demographic recognition, democratic representation, and political cohesion in an increasingly diverse and divided American polity
 
 1. Introduction
 
@@ -83,5 +91,13 @@ Contribute to broader discussions about identity, democracy, and governance in a
 10. Conclusion
 
 The “African American” demographic category has historically served as a tool for equity and inclusion. Yet in a polarized political environment, its continued institutional use may carry complex and unintended consequences. By examining both its empowering and divisive dimensions, this research seeks to better understand how demographic recognition influences the evolving landscape of American politics.
+
+Reference:
+1.	US Census Bureau. (2024, December 20). About the topic of race. Census.gov. https://www.census.gov/topics/population/race/about.html
+2.	Atske, S., & Atske, S. (2025, December 16). Counting Race: How the census measures identity and what Americans think about it. Pew Research Center. https://www.pewresearch.org/race-and-ethnicity/2025/11/03/counting-race-how-the-census-measures-identity-and-what-americans-think-about-it/ 
+3.	Cobb, C. E., Jr. (2022, September 20). The complexities of race and identity. The Pew Charitable Trusts. https://www.pew.org/en/trust/archive/fall-2022/race-and-identity 
+4.	Hochschild, J. L. (1998, March 1). American Racial and Ethnic Politics in the 21st Century: A cautious look ahead. Brookings. https://www.brookings.edu/articles/american-racial-and-ethnic-politics-in-the-21st-century-a-cautious-look-ahead/ 
+5.	Thompson, A. I., & McCabe, S. D. (2025). The importance of local racial demographic changes in democratic erosion in the mass American public. Proceedings of the National Academy of Sciences, 122(48), e2501150122. https://doi.org/10.1073/pnas.2501150122
+
 
 # 682-POL-Class-Project
