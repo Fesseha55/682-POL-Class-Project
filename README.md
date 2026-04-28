@@ -73,7 +73,151 @@ According to Martin Lunt, the history of race is the story of a social and polit
 In political science, polarization means the public and elites sort into increasingly distant, internally consistent camps with little overlap. It shows up in two main forms: Ideological polarization: Republicans and Democrats (and their voters) move farther apart on policy (taxes, immigration, climate, etc.), with fewer moderates in the middle. Affective polarization is also when people don’t just disagree; they dislike and distrust the other side more, seeing them as misguided or even threatening.
 Polarized America by Alan Abramowitz, argues that voters and politicians have sorted along clear ideological and social lines, reinforcing each other over time. Work by Pew Research Center and scholars like Lilliana Mason adds that identities (party, religion, race, culture) now stack which are intensifying conflict. There is strong evidence that politics in the United States fits the pattern of polarization. In Congress, voting behavior has become sharply divided along party lines, with very little overlap between Democrats and Republicans compared to earlier periods; measures of legislative ideology show that the gap between the parties is at its widest in over a century. Among the public, surveys consistently reveal large and growing differences in opinion on major issues, with fewer people holding mixed or moderate views. Emotional or affective polarization is also evident, as many Americans express distrust or dislike toward the opposing party and are less willing to form personal relationships across political lines. Media environments contribute to this divide, as people increasingly consume information from ideologically aligned sources, reinforcing existing beliefs. At the same time, geographic patterns such as the divide between urban and rural areas have made electoral competition less balanced and reduced incentives for compromise. Taken together, these trends show that U.S. politics is widely considered highly polarized because differences are deeper, more consistent, and more emotionally charged than in the past. It’s not just disagreement over policy, it’s a widening divide in identity, trust, and perception of reality.
 
-...will continue
+
+8.	Result
+   
+Dataset (Table 1.) was collected from Cambridge University press journal-titled “Partisan polarization on Black Suffrage, 1785–1868”, and from “Pew Research Center titled “Party Affiliation Fact Sheet (NPORS)” and other secondary sources (Bateman, 2019c; Nadeem, 2025). The data presents the historical timeline data for Black/African American party alignment, showing the relative strength of the Democratic and Republican parties across seven major periods from 1865 to 2024.
+RStudio was used to compute the regression in three parts. 
+8.1.	In the first part, the regression of the Black party history line was calculated democratic party data trend only (Table 2.) along the different period. 
+8.2.	In the second part, linear regression was calculated using RStudio for the Republican party separately (Table 3.).
+8.3.	In the third part, linear regression was calculated using RStudio for both republican and democratic together as shown in Table 4.
+
+8.1.	Black party history timeline data of the Democratic party
+From Table 1, a separate data set of the Black party history line prepared separately for the democratic party (Table 2.) and it was calculated in RStudio which gave the linear regression indicated at Fig 1. The results show a clear upward trend in Black support for the Democratic Party across the historical periods examined. The regression output shows that the fitted values increase over time, rising from 7.66 in the earliest period to 96.64 in the most recent period, which confirms a strong positive time trend in Democratic support.
+The residuals show the difference between the observed values and the fitted values (Fig.2.). In the earliest period, the residual is 2.34, while in 1900–1932 it is -10.68. The residuals become smaller in the middle periods, including -2.17 in 1932–1948 and 1.84 in 1948–1964, but increase again in later periods, with 15.84 in 1964–1980, 6.48 in 1980–2000, and -13.64 in 2000–2024. This indicates that while the regression line captures the general upward pattern, there are still differences between the observed values and the predicted values in some periods.
+
+Black party history timeline data of the Democratic and republican parties
+Period	Democratic	Republican
+1865-1900	10	85
+1900-1932	20	75
+1932-1948	45	50
+1948-1964	60	35
+1964-1980	85	12
+1980-2000	88	10
+2000-2024	83	15
+Table 1. Black party history timeline data of Democratic and Republic parties in seven sequential intervals from1865-2024
+
+Black party history timeline data for Democratic party
+Period	Democratic
+1865-1900	10
+1900-1932	20
+1932-1948	45
+1948-1964	60
+1964-1980	85
+1980-2000	88
+2000-2024	83
+
+
+
+
+
+
+Table 2. Black party history timeline data of the Democratic Party
+
+
+ 
+Fig.1. Linear Regression of Black support for Democratic party over time. 
+
+
+ 
+Fig. 2. Residual of Linear Regression of Black support for Democratic party over time:
+	R-squared: 0.901 (90.1% of variation explained)
+	P-value: 0.001 (highly significant)
+	Intercept (b₀): -1285.77
+	Slope (b₁): 0.687 
+Linear regression shows Black Democratic support grew by 0.687 percentage points each year (b=0.687, p=0.001, R²=0.901), reflecting the New Deal realignment and Southern Strategy impacts. Put it in discussion
+8.2.	 Black support history timeline data of Republican  party
+Using the dataset on table 3, a linear regression was performed, and the results showed a clear and statistically significant decline in Black support for the Republican Party over time (Fig.3.). The data indicated that support was very high in the late 19th century (about 85% between 1865-1900) but steadily decreased across each historical period, reaching its lowest point around 10-12% between 1964 and 2000, with only a slight increase to 15% in the most recent period (2000-2024). The fitted regression line confirms this strong downward trend, with a negative slope (-0.861), meaning that for each passing year, Republican support among Black voters declines on average. This pattern reflects a long-term political realignment rather than short-term fluctuations.
+The statistical measures further reinforce the strength of this relationship. The R-squared value of 0.915 indicates that approximately 91.5% of the variation in Black Republican support is explained by time, suggesting an excellent model fit. Additionally, the p-value (0.001084) is well below conventional significance levels, confirming that the observed trend is statistically significant and unlikely due to chance. The relatively low residual standard error (4.118) also suggests that the model’s predictions closely match the observed data. Overall, these findings provide strong empirical evidence of a consistent and meaningful decline in Black support for the Republican Party across historical periods.
+
+
+Black party history timeline data for Republican Party
+Period	Republican
+1865-1900	85
+1900-1932	75
+1932-1948	50
+1948-1964	35
+1964-1980	12
+1980-2000	10
+2000-2024	15
+Table 3. Black party history timeline data for Republican Party
+
+ 
+Fig. 3. Linear Regression of Black party history timeline data for Republican Party
+
+ 
+Fig.4. Residual Black party history timeline data for Republican Party:
+	R-squared: 0.915 
+	P-value: 0.001084 
+	Residual SE: 4.118
+
+The model statistics show an R-squared value of 0.915 and an adjusted R-squared of 0.900, with an F-statistic of 55.2 and a p-value of 0.001084. The fitted equation is Republican = 1702. 45 - 0.861 × YearMid. Coefficients include an intercept of 1702 with a standard error of 207, and a YearMid estimate of -0.861 with a standard error of 0.116.
+8.3.	Black party history timeline data of the Democratic and Republican Parties
+The historical timeline dataset of the Democratic and Republican Parties (Table 4) was processed using RStudio, and the results are shown graphically in Figures 5 and 6. The ordinary least squares regression analysis indicates a strong and statistically significant linear relationship between time and party support in the Black party history timeline. The results for the Democratic Party show a positive regression coefficient (b = 0.687), which means that Democratic support increased steadily over the historical periods examined. The model produced an R-squared-value of 0.901, indicating that a substantial proportion of the variation in Democratic support is explained by time, and the result was statistically significant at the 0.01 level.
+The regression results for the Republican Party show a negative coefficient (b = -0.659), indicating that Republican support declined over time. The model produced an R-squared value of 0.896, which also suggests a strong fit between the observed values and the regression line. This result was likewise statistically significant at the 0.01 level. Taken together, the findings demonstrate a clear historical realignment in Black political support, with support shifting from the Republican Party in the earlier periods toward the Democratic Party in the later periods.
+Black party history timeline table
+Period	       Democratic	         Republican
+1865-1900	10	85
+1900-1932	20	75
+1932-1948	45	50
+1948-1964	60	35
+1964-1980	85	12
+1980-2000	88	10
+2000-2024	83	15
+Table 4. Black party history timeline data of the Democratic and Republican Parties
+
+ 
+
+Fig. 5. Black party history timeline data of the Democratic and Republican Parties
+
+
+ 
+Fig. 6. Black party history timeline data of the Democratic and Republican Parties
+
+9.	Discussion
+The findings support the argument that U.S. political parties have played a major role in sustaining racial polarization, especially in relation to African American voters. The regression results show a clear upward trend in Black Democratic support over time and a corresponding downward trend in Black Republican support, indicating a long-term partisan realignment rather than a short-term fluctuation. This pattern is consistent with the historical shift described in the paper, where Black voters moved away from the Republican Party after the New Deal and especially after the Civil Rights era.
+The Democratic regression suggests that Black support for the party increased steadily across the historical periods, with the model explaining a large share of the variation. This supports the paper’s argument that Democratic alignment among Black voters became more durable as the party increasingly associated itself with civil rights, voting rights, and racial inclusion. At the same time, the Republican regression shows the opposite pattern, with support falling sharply across the same periods. Taken together, these results suggest that party competition in the United States has not been racially neutral, but has instead reflected deeper historical struggles over race, representation, and political power.
+Political parties use the Racial polarization as a tool to mobilize voters even though it has long term consequences in the American Democracy.  By appealing to racially distinct constituencies, parties may strengthen short-term electoral coalitions, but they also deepen mistrust and widen the racial divide in political behavior. The Republican Party’s historical shift away from Black voters and the Democratic Party’s long-term consolidation of Black support illustrate how party strategy and racial identity became increasingly linked. This helps explain why racial polarization remains persistent even when formal legal barriers to Black participation have been reduced.
+These results also have implications for political representation. If parties continue to rely on racially coded appeals, Black political participation may remain highly partisan rather than broadly integrated into a race-neutral democratic competition. That dynamic can limit policy responsiveness, encourage symbolic rather than substantive inclusion, and keep racial inequality central to electoral strategy. In this sense, the regression results do not just describe historical change; they also point to the institutional persistence of racialized party competition.
+A further implication is that the observed trends may constrain future political cohesion. As this paper notes, demographic change and generational replacement could alter the balance of party coalitions, but they do not automatically eliminate polarization. If parties continue to mobilize voters through racial cues, redistricting, and voter-targeting strategies, the underlying structure of racial polarization may remain intact even as the electorate becomes more diverse. This means that reform efforts focused on fair representation, voting rights protection, and less racially exploitative campaign strategies will remain important.
+10. Limitation
+The analysis has several limitations that should be acknowledged: 
+1.	The dataset is aggregated and historical, so the results describe broad trends rather than individual-level political behavior. 
+2.	The regression is based on seven time periods only, which limits the complexity of inference and makes the model more descriptive than causal. 
+3.	The paper relies on secondary historical sources, so the conclusions depend on the quality and comparability of those underlying measures.
+
+11. Conclusion
+Overall, the results indicate that Black partisan alignment has moved decisively toward the Democratic Party while Republican support has declined across the historical timeline. This supports the broader argument that U.S. parties have not merely responded to racial change, but have actively helped shape racial polarization through strategy, rhetoric, and institutional behavior. The discussion therefore confirms the paper’s central claim: racial polarization is not accidental but embedded in the logic of party competition and historical realignment.
+
+12. Recommendation
+This study presents several recommendations aimed at reducing racial polarization in U. S. politics and fostering race-neutral democratic competition. First, political parties should avoid racially coded messages in their campaigns. Such rhetoric, which portrays Black voters and racial equity policies as threats, increases distrust and solidifies divisive political sorting. 
+Second, there is a need to strengthen voting rights protections to counteract the effects of partisan strategies that unfairly impact Black voters. This includes establishing clearer federal guidelines for voter registration, absentee voting, polling access, and election management, along with enhanced oversight of laws that limit participation. Since voter suppression is a major factor in racial polarization, safeguarding voting rights is crucial. 
+Third, reforming redistricting practices is essential to prevent racial packing and cracking of districts. Implementing independent redistricting commissions and transparent criteria, along with judicial measures against racial gerrymandering, would help ensure fair representation for Black voters without eliminating partisan competition. 
+Fourth, political parties and civic organizations should support cross-racial civic engagement and education. Schools, universities, and community groups can create environments where political discussions avoid racial stereotypes. This approach may reduce the link between race and party identity, particularly among younger voters. 
+Lastly, further research should focus on individual behaviors and local contexts of Black political attitudes. Understanding how Black voters interpret party messages across different areas will provide deeper insights into the realignment of political identities. Overall, it is important to recognize that racial diversity is not the issue; rather, the manipulation of race for partisan gain creates problems. Effective reforms can lead to healthier democratic practices.
+
+
+Reference:
+1.	US Census Bureau. (2024, December 20). About the topic of race. Census.gov. https://www.census.gov/topics/population/race/about.html
+2.	Atske, S., & Atske, S. (2025, December 16). Counting Race: How the census measures identity and what Americans think about it. Pew Research Center. https://www.pewresearch.org/race-and-ethnicity/2025/11/03/counting-race-how-the-census-measures-identity-and-what-americans-think-about-it/ 
+3.	Cobb, C. E., Jr. (2022, September 20). The complexities of race and identity. The Pew Charitable Trusts. https://www.pew.org/en/trust/archive/fall-2022/race-and-identity 
+4.	Hochschild, J. L. (1998, March 1). American Racial and Ethnic Politics in the 21st Century: A cautious look ahead. Brookings. https://www.brookings.edu/articles/american-racial-and-ethnic-politics-in-the-21st-century-a-cautious-look-ahead/ 
+5.	Thompson, A. I., & McCabe, S. D. (2025). The importance of local racial demographic changes in democratic erosion in the mass American public. Proceedings of the National Academy of Sciences, 122(48), e2501150122. https://doi.org/10.1073/pnas.2501150122 
+6.	Mixed Race America - Who is Black? One Nation’s Definition | Jefferson’s Blood | FRONTLINE | PBS. (2015, November 18). https://www.pbs.org/wgbh/pages/frontline/shows/jefferson/mixed/onedrop.html
+7.	https://thereader.mitpress.mit.edu/a-prehistory-of-scientific-racism/ 
+8.	The role of racial resentment in our politics. (2026b, March 27). Brennan Center for Justice. https://www.brennancenter.org/our-work/analysis-opinion/role-racial-resentment-our-politics#:~:text=According%20to%20Theodore%20Johnson%2C%20the%20parties%20in,the%20right%20has%20fortified%20its%20pre%2Dexisting%20position. 
+9.	Redistricting information. (2021, September 1). https://www.justice.gov/crt/redistricting-information 
+10.	Native American Rights Fund. (2024, October 24). Partisan aims cannot excuse racial gerrymandering - Native American Rights Fund. https://narf.org/partisan-aims-cannot-excuse-racial-gerrymandering/
+11.	Bates, K. G. (2014, July 14). Why did Black voters flee the Republican Party in the 1960s? NPR. https://www.npr.org/sections/codeswitch/2014/07/14/331298996/why-did-black-voters-flee-the-republican-party-in-the-1960s 
+12.	Bateman, D. A. (2019). Partisan polarization on Black Suffrage, 1785–1868. Perspectives on Politics, 18(2), 470–491. https://doi.org/10.1017/s1537592719001087
+13.	For Black Republicans, a dramatic shift | UW College of Arts & Sciences. (n.d.). https://artsci.washington.edu/news/2023-10/black-republicans-dramatic-shift 
+14.	Edwards, L. (n.d.). Barry M. Goldwater: The most consequential loser in American politics | The Heritage Foundation. The Heritage Foundation. https://www.heritage.org/political-process/report/barry-m-goldwater-the-most-consequential-loser-american-politics 
+15.	https://www.cnn.com/2020/11/20/politics/trump-giuliani-black-cities-analysis 
+16.	Bates, K. G. (2014b, July 14). Why did Black voters flee the Republican Party in the 1960s? NPR. https://www.npr.org/sections/codeswitch/2014/07/14/331298996/why-did-black-voters-flee-the-republican-party-in-the-1960s 
+17.	Tian, Z., Lopez, M. H., Passel, J. S., Krogstad, J. M., Zanetti, N., Atske, S., & Mandapat, J. C. (2025, December 16). How the US Census Measures Race and What Americans Think About It. Pew Research Center. https://www.pewresearch.org/race-and-ethnicity/2025/11/03/counting-race-how-the-census-measures-identity-and-what-americans-think-about-it/#do-americans-think-federal-surveys-should-ask-about-race 
+18.	Bateman, D. A. (2019b). Partisan polarization on Black Suffrage, 1785–1868. Perspectives on Politics, 18(2), 470–491. https://doi.org/10.1017/s1537592719001087
+    
+
 
 
 
