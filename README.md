@@ -175,21 +175,26 @@ Fig. 5. Black party history timeline data of the Democratic and Republican Parti
 Fig. 6. Black party history timeline data of the Democratic and Republican Parties
 
 9.	Discussion
+
 The findings support the argument that U.S. political parties have played a major role in sustaining racial polarization, especially in relation to African American voters. The regression results show a clear upward trend in Black Democratic support over time and a corresponding downward trend in Black Republican support, indicating a long-term partisan realignment rather than a short-term fluctuation. This pattern is consistent with the historical shift described in the paper, where Black voters moved away from the Republican Party after the New Deal and especially after the Civil Rights era.
 The Democratic regression suggests that Black support for the party increased steadily across the historical periods, with the model explaining a large share of the variation. This supports the paper’s argument that Democratic alignment among Black voters became more durable as the party increasingly associated itself with civil rights, voting rights, and racial inclusion. At the same time, the Republican regression shows the opposite pattern, with support falling sharply across the same periods. Taken together, these results suggest that party competition in the United States has not been racially neutral, but has instead reflected deeper historical struggles over race, representation, and political power.
 Political parties use the Racial polarization as a tool to mobilize voters even though it has long term consequences in the American Democracy.  By appealing to racially distinct constituencies, parties may strengthen short-term electoral coalitions, but they also deepen mistrust and widen the racial divide in political behavior. The Republican Party’s historical shift away from Black voters and the Democratic Party’s long-term consolidation of Black support illustrate how party strategy and racial identity became increasingly linked. This helps explain why racial polarization remains persistent even when formal legal barriers to Black participation have been reduced.
 These results also have implications for political representation. If parties continue to rely on racially coded appeals, Black political participation may remain highly partisan rather than broadly integrated into a race-neutral democratic competition. That dynamic can limit policy responsiveness, encourage symbolic rather than substantive inclusion, and keep racial inequality central to electoral strategy. In this sense, the regression results do not just describe historical change; they also point to the institutional persistence of racialized party competition.
 A further implication is that the observed trends may constrain future political cohesion. As this paper notes, demographic change and generational replacement could alter the balance of party coalitions, but they do not automatically eliminate polarization. If parties continue to mobilize voters through racial cues, redistricting, and voter-targeting strategies, the underlying structure of racial polarization may remain intact even as the electorate becomes more diverse. This means that reform efforts focused on fair representation, voting rights protection, and less racially exploitative campaign strategies will remain important.
+
 10. Limitation
+
 The analysis has several limitations that should be acknowledged: 
 1.	The dataset is aggregated and historical, so the results describe broad trends rather than individual-level political behavior. 
 2.	The regression is based on seven time periods only, which limits the complexity of inference and makes the model more descriptive than causal. 
 3.	The paper relies on secondary historical sources, so the conclusions depend on the quality and comparability of those underlying measures.
 
 11. Conclusion
+
 Overall, the results indicate that Black partisan alignment has moved decisively toward the Democratic Party while Republican support has declined across the historical timeline. This supports the broader argument that U.S. parties have not merely responded to racial change, but have actively helped shape racial polarization through strategy, rhetoric, and institutional behavior. The discussion therefore confirms the paper’s central claim: racial polarization is not accidental but embedded in the logic of party competition and historical realignment.
 
 12. Recommendation
+
 This study presents several recommendations aimed at reducing racial polarization in U. S. politics and fostering race-neutral democratic competition. First, political parties should avoid racially coded messages in their campaigns. Such rhetoric, which portrays Black voters and racial equity policies as threats, increases distrust and solidifies divisive political sorting. 
 Second, there is a need to strengthen voting rights protections to counteract the effects of partisan strategies that unfairly impact Black voters. This includes establishing clearer federal guidelines for voter registration, absentee voting, polling access, and election management, along with enhanced oversight of laws that limit participation. Since voter suppression is a major factor in racial polarization, safeguarding voting rights is crucial. 
 Third, reforming redistricting practices is essential to prevent racial packing and cracking of districts. Implementing independent redistricting commissions and transparent criteria, along with judicial measures against racial gerrymandering, would help ensure fair representation for Black voters without eliminating partisan competition. 
@@ -198,6 +203,7 @@ Lastly, further research should focus on individual behaviors and local contexts
 
 
 Reference:
+
 1.	US Census Bureau. (2024, December 20). About the topic of race. Census.gov. https://www.census.gov/topics/population/race/about.html
 2.	Atske, S., & Atske, S. (2025, December 16). Counting Race: How the census measures identity and what Americans think about it. Pew Research Center. https://www.pewresearch.org/race-and-ethnicity/2025/11/03/counting-race-how-the-census-measures-identity-and-what-americans-think-about-it/ 
 3.	Cobb, C. E., Jr. (2022, September 20). The complexities of race and identity. The Pew Charitable Trusts. https://www.pew.org/en/trust/archive/fall-2022/race-and-identity 
